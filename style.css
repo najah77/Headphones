@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    right: 0;
+    z-index: 1000;
+    background-color: transparent;
+    position: sticky;
+    top: 60px; 
+}
+.menuitems a{
+    position: relative;
+    text-decoration: none;
+    color: black;;
+
+}
+#banner{
+    height: 1130px;
+    position: relative;
+    bottom: 63px;
+}
+.custom1{
+    overflow-x: hidden;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, -50%);
+    text-align: start;
+    color: black;
+}
+
+.imagetext h4{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.imagetext h1{
+    font-size: 85px;
+    
+}
+
+.btn button{
+ border-radius: 40px;
+ padding: 10px;
+ font-size: 20px;
+}
+
+.des {
+    width: calc(100% - 200px);
+} 
+
+.des span{
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#bannertext{
+    background-color: rgb(244 199 111) !important;
+    height: 100px;
+}
+
+.maintext1 h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+
+}
+.maintext h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.cutsom3{
+    margin: 80px !important;
+}
+.row{
+    margin-right: 200px !important;
+}
+.card {
+    width: 500px !important;
+    height: 500px !important;
+    background-color: rgb(244 199 111) !important;
+}
+
+.card img{
+    height: 300px !important;
+    width: 500px !important;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.card-text{
+    color: white;
+}
+
+.cutsom3 img{
+    width: 400px;
+    height: 300px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(244 199 111);
+    color: black !important;
+    padding: 5px 10px;
+    border-radius: 30px !important;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px !important;
+}
+
+.maintext h3{
+    color: white;
+    font-size: 16px;
+    height: 3px;
+    margin-top: 20px;;
+}
+
+#bannertext2{
+    background-color: rgb(244 199 111) !important;
+    height: 150px;
+}
+
+.maintext{
+    margin-top: 20px;
+}
+
+#bannertext2 button{
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#bannertext2 button p{
+    position: relative;
+    bottom: 13px;
+}
+
+#motiv h1{
+    font-size: 35px;
+    margin-top: 70px;
+}
+.learn-more p{
+    position: relative;
+    bottom: 9px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.plus-button {
+    font-size: 48px;
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+.caption {
+    font-size: 16px;
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: start;
+}
+
+/* Motiv section */
+.cardlike ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+.cardlike ul li{
+    width: 300px;
+}
+
+.cardlike ul li .number{
+    color:  rgb(244 199 111);
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.cardlike ul li .text{
+    position: relative;
+    bottom: 13px;
+    right: 80px;
+    font-weight: bolder;
+}
+
+.learn-more2{
+    color: rgb(244 199 111);
+}
+
+/* see section */
+#see .content{
+    display: flex;
+    justify-content: center;
+}
+
+.custom4{
+    margin-top: 50px;
+}
+
+.smallhead{
+    font-weight: 600;
+}
+
+.visit h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.map{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.footercontainer img{
+    width: 100px;
+    height: 100px;
+}
+
+.footercontainer .copyright{
+    margin-top: 20px;
+}
+
+.footercontainer a{
+    background-color: rgb(244 199 111);
+    border-radius: 30px;
+    color: white !important;
+}
+
+.footercontainer a:hover{
+    background-color: black;
+    
+}
